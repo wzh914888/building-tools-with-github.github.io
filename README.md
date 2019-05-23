@@ -1,3 +1,11 @@
-Code samples for the book ["Building Tools with GitHub"](http://shop.oreilly.com/product/0636920043027.do) from O'Reilly.
+Run these commands:
 
-I'd really love to know how you found this repository and what you want to do with the code samples. [Will you fill out this quick five question survey](https://docs.google.com/forms/d/1sxc7Aq2GVtWQwIp9VPGsIe2J5twsuc3qap6CjeKws5c/edit?usp=forms_home&ths=true)?
+```
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable
+. ~/.rvm/scripts/rvm 
+rvm install 2.1.0
+gem install bundler
+bundle
+bundle exec ruby run.rb 
+```
